@@ -68,9 +68,26 @@ form select {
   background-color: transparent;
   color: rgb(220, 229, 162);
   height: 34px;
+  width: 100%;
   border-radius: 4px;
   margin-bottom: 22px;
   font-family: 'Rajdhani', sans-serif;  
+  scrollbar-width: thin;
+  scrollbar-color: #888 #ddd;
+}
+
+/* Estilizando o scrollbar em navegadores WebKit (como Chrome/Safari) */
+select::-webkit-scrollbar {
+  width: 8px;
+}
+
+select::-webkit-scrollbar-thumb {
+  background-color: rgb(212, 100, 8);
+  border-radius: 30px;
+}
+
+select::-webkit-scrollbar-track {
+  background-color: #070707;
 }
 
 form option {
