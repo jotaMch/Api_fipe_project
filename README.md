@@ -1,7 +1,7 @@
 # Projeto feito em React e CSS utilizando a FIPE API HTTP REST
 
 
-## Cole o link para o git clone
+## Cole o link usando o git clone
 
 ### Após clonar o repositório execulte `npm install`
 
