@@ -31,6 +31,11 @@ h1 {
 
 
 @media screen and (max-width: 768px) {
+
+  body {
+    background-position: calc(80%);
+  }
+
   .App {
     flex-direction: column;
   }
