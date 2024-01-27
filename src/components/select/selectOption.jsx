@@ -1,11 +1,9 @@
 // Selected.jsx
 import React from "react";
 
-function Selected({ marcas, modelos, anos, selectedMarca, handleMarcaChange, 
-                    selectedModelo, handleModeloChange, selectedAno, setSelectedAno }) {
+function Selected({ marcas, modelos, anos, selectedMarca, handleMarcaChange, selectedModelo, handleModeloChange, selectedAno, setSelectedAno }) {
 return (
         <>
-        {/* <label>Marca:</label> */}
         <select
             value={selectedMarca}
             onChange={handleMarcaChange}
@@ -20,7 +18,6 @@ return (
 
         {modelos.length > 0 && (
             <div>
-            {/* <label>Modelo:</label> */}
             <select
                 value={selectedModelo}
                 onChange={handleModeloChange}
@@ -37,7 +34,6 @@ return (
 
         {anos.length > 0 && (
             <div>
-            {/* <label>Ano:</label> */}
             <select
                 value={selectedAno}
                 onChange={(event) => setSelectedAno(event.target.value)}
